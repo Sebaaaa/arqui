@@ -7,7 +7,7 @@ int funcionQ(int n){
   }
   return 0;
 }
-
+//hola
 int main(){
 
   return 0;
