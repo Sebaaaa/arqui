@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 
 
 int funcionQ(int n){
@@ -11,7 +12,13 @@ int funcionQ(int n){
 }
 
 int main(){
-  int numero=4;
+
+  int numero;
+  printf("%s\n","Ingresa un numero: ");
+  scanf("%d", &numero);
+  
   printf("%d\n",funcionQ(numero));
+
   return 0;
+
 }
